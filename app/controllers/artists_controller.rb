@@ -61,6 +61,6 @@ end
   end
 
   def set_preferences
-     @preferences = Preference.first
-   end
+   @preferences = Preference.first
+  end
  end
