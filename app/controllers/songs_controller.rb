@@ -36,6 +36,7 @@ class SongsController < ApplicationController
     else
       @song = Song.new
   end
+end
 
   def create
     @song = Song.new(song_params)
