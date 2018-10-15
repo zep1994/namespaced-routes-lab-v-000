@@ -19,6 +19,7 @@ class ArtistsController < ApplicationController
     else
       @artist = Artsit.new
   end
+end
 
   def create
     @artist = Artist.new(artist_params)
@@ -62,4 +63,4 @@ class ArtistsController < ApplicationController
   def set_preferences
      @preferences = Preference.first
    end
- end 
+ end
