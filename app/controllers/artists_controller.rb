@@ -63,3 +63,5 @@ class ArtistsController < ApplicationController
     @preferences = Preference.first
   end
 end
+
+end
