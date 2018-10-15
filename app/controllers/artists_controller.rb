@@ -64,4 +64,3 @@ class ArtistsController < ApplicationController
   end
 end
 
-end
